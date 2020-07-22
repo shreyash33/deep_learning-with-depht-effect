@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 from mtcnn.mtcnn import MTCNN
 
-model=load_model('C:/Users/SHREYASH/Downloads/detect_model.h5')
+model=load_model('detect_model.h5')
 vs=cv2.VideoCapture(0)
 det=MTCNN()
 def a():
